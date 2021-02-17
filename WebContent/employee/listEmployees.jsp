@@ -11,7 +11,8 @@
 		<table class='table justify-content-around'>
 			<thead>
 				<tr>
-					<th>&nbsp;&nbsp;&nbsp;&nbsp;사번</th>
+					<th><pre>  </pre></th>
+					<th>사번</th>
 					<th>이름</th>
 					<th>입사일</th>
 				</tr>
@@ -21,9 +22,10 @@
 					<c:when test='${empList.size() > 0}'>
 						<c:forEach var='emp' items='${empList}'>
 							<tr>
+								<th></th>
 								<th><input type='radio'  required 
 										name='empId' value='${emp.empId}'/>
-									&nbsp;&nbsp;&nbsp;${emp.empId}</th>
+									${emp.empId}</th>
 								<td>${emp.empName}</td>
 								<td>${emp.hireDate}</td>
 							</tr>
