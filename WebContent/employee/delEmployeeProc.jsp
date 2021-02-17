@@ -5,4 +5,4 @@
 	String empId = request.getParameter("empId");
 	new EmployeeServiceImpl().delEmployee(Integer.parseInt(empId));
 %>
-<c:redirect url='delEmployee.jsp'/>
+<c:redirect url='../main.jsp'/>
