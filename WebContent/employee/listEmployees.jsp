@@ -11,7 +11,7 @@
 		<table class='table justify-content-around'>
 			<thead>
 				<tr>
-					<th><pre>  </pre></th>
+					<th></th>
 					<th>사번</th>
 					<th>이름</th>
 					<th>입사일</th>
